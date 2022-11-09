@@ -1,0 +1,213 @@
+body {
+    background-image: url(https://images8.alphacoders.com/404/404291.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(46, 146, 46, 0.838);
+
+}
+
+.navbar-brand {
+    padding-right: 30px;
+}
+
+.carousel img {
+    margin-top: 70px;
+    max-height: 300px;
+}
+form{
+    max-width: 50%;
+    
+}
+
+h5 {
+    color: rgb(187, 83, 8);
+    background-color: rgb(111, 168, 37);
+    display: inline;
+    border-radius: 5px;
+    border-style: dashed;
+    position: relative;
+    bottom: 225px;
+}
+
+.h52 {
+    color: rgb(187, 83, 8);
+    background-color: rgb(111, 168, 37);
+    display: inline;
+    border-radius: 5px;
+    border-style: dashed;
+    position: relative;
+    bottom: 310px;
+}
+
+hr {
+    width: 30%;
+    border: 3px solid rgb(238, 138, 44);
+}
+
+h3 {
+    color: darkgreen;
+    background-color: rgb(238, 138, 44);
+    border-style: dashed;
+    border-radius: 20px;
+    display: inline;
+}
+
+p {
+    color: rgb(255, 251, 9);
+    font-style: inherit;
+    background-color: rgba(22, 22, 20, 0.562);
+}
+
+.different h3 {
+    position: relative;
+    top: 20px;
+}
+
+h4 {
+    color: rgb(13, 116, 13);
+    background-color: rgb(228, 224, 15);
+    display: inline;
+
+}
+
+h6 {
+    color: rgb(187, 83, 8);
+    background-color: rgb(142, 207, 56);
+    display: inline;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+.imgdep {
+    max-width: 280px;
+    height: 220px;
+}
+
+.divdep {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.pdep {
+    height: 20%;
+}
+
+.imgexpe {
+    max-width: 1100px;
+    padding: 0px;
+    margin-left: 270px;
+}
+
+.sarah .nico .greg .jean {
+    max-width: 500px;
+    max-height: 200px;
+
+}
+
+.nico {
+    bottom: 13px;
+}
+
+.jean {
+    left: 20px;
+    top: 13px;
+}
+
+.nomjean {
+    margin-left: 20px;
+}
+.pageexpe{
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width:1450px) {
+    .carousel img {
+        min-height: 300px;
+        min-width: 500px;
+    }
+
+    .imgdep {
+        left: 30px;
+    }
+
+    .imgexpe {
+        max-width: 800px;
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .imgexpe {
+        margin-left: 0;
+    }
+
+    .jean {
+        left: 0;
+        top: 20px;
+    }
+
+    .nomjean {
+        margin-left: 0;
+    }
+
+    .nico {
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .carousel img {
+        min-height: 220px;
+        max-height: 220px;
+        min-width: 100%;
+        margin-top: 140px;
+    }
+
+    h5 {
+        bottom: 200px;
+    }
+
+    .h52 {
+        bottom: 270px;
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .imgdep {
+        left: 25px;
+    }
+
+    .imgexpe {
+        margin-left: 0;
+    }
+
+    .jean {
+        left: 0;
+    }
+
+    .imgexpe h6 {
+        display: none;
+    }
+    form{
+        max-width: 100%;
+    }
+}
+
+.block {
+    height: 400px;
+}
